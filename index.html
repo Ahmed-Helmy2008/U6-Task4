@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <header class="Home-section" id="Home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Berimbolo Security</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer-section">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="hero">
+            <div class="background"></div>
+            <div class="hero-content">
+                <h1>Berimbolo Security Company</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Sint facilis ex cumque hic quae dignissimos ut rerum voluptas mollitia architecto?</p>
+                <button>LOGIN</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="About-section" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <h2 class="mb-2">This is my space</h2>
+                    <p class="text-muted">I can talk about my business,products or myself</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6 text-muted">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut vitae dicta quia eligendi labore eveniet, quam fugiat, facere, expedita omnis dolorem quibusdam magnam quidem neque consequuntur eum est ad sed dolorum veritatis. Quae rem totam, voluptatem autem facilis iure odio?</p>
+                </div>
+                <div class="col-md-6 text-muted">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut vitae dicta quia eligendi labore eveniet, quam fugiat, facere, expedita omnis dolorem quibusdam magnam quidem neque consequuntur eum est ad sed dolorum veritatis. Quae rem totam, voluptatem autem facilis iure odio?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="products" id="products">
+        <div class="container my-5">
+            <h2 class="text-center mb-3">Featured Products</h2>
+            <p class="text-center text-muted">Check out new and popular products</p>
+        
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#productModal1">
+                        <img src="product1.jfif" alt="Awesomeness">
+                        <div class="card-footer text-center">$50.00 USD</div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#productModal2">
+                        <img src="product2.jfif" alt="Directness">
+                        <div class="card-footer text-center">$60.00 USD</div>
+                    </div>
+                </div>
+                
+
+                <div class="col-md-4">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#productModal3">
+                        <img src="product3.jfif" alt="Simplicity">
+                        <div class="card-footer text-center">$40.00 USD</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel1">Awesomeness</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="product1.jfif" alt="Awesomeness">
+                        <p class="mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+                        <p><strong>Dimensions:</strong> 2.2 in x 12 in x 4.5 in</p>
+                        <p><strong>Weight:</strong> 35 oz</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Add to Cart</button>
+                        <button class="btn btn-secondary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel2">Directness</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="product2.jfif" alt="Directness">
+                        <p class="mt-3">Detailed description about Directness.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Add to Cart</button>
+                        <button class="btn btn-secondary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModalLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel3">Simplicity</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="product3.jfif" alt="Simplicity">
+                        <p class="mt-3">Detailed description about Simplicity.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Add to Cart</button>
+                        <button class="btn btn-secondary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <div class="newsletter-section">
+        <h2>Monthly Newsletter</h2>
+        <p>Sign up to receive updates from our shop, including new <br> tea selections and upcoming events.</p>
+        <form class="d-flex justify-content-center">
+            <input type="email" class="form-control  me-2" placeholder="Enter your email">
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+    
+    <footer id="footer-section" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Berimbolo Security</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5>Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Styleguide</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Categories</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 2</a></li>
+                        <li><a href="#">Category 3</a></li>
+                        <li><a href="#">Category 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
